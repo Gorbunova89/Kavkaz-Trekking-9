@@ -39,6 +39,16 @@ footer {
     background-color: var(--color1);
 }
 
+.raspisanie i {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.r-icon {
+    color: var(--color2);
+    
+}
+
 .line {
     width: 100px;
     height: 3px;
