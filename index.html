@@ -14,6 +14,7 @@
 <body>
   <!-- Навигационная панель -->
   <header>
+    <!-- первое меню -->
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -27,22 +28,73 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- второе меню -->
+    <nav class="navbar navbar-expand-xl bg-light">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+  
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Kavkaz Trekking</a>
+            </li>
+      
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Маршруты
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-bs-popper="static">
+                <li><a class="dropdown-item" href="#">Краснодарский край</a></li>
+                <li><a class="dropdown-item" href="#">Адыгея</a></li>
+                <li><a class="dropdown-item" href="#">Крым</a></li>
+                <li><a class="dropdown-item" href="#">Карачаево-Черкессия</a></li>
+                <li><a class="dropdown-item" href="#">Кабардино-Балкария</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Расписание
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Сезон 2022</a></li>
+                <li><a class="dropdown-item" href="#">Сезон 2023</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Блог
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Экипировка</a></li>
+                <li><a class="dropdown-item" href="#">Физическая подготовка</a></li>
+                <li><a class="dropdown-item" href="#">Психология в походе</a></li>
+                <li><a class="dropdown-item" href="#">Медицина в походе</a></li>
+                <li><a class="dropdown-item" href="#">Работа инструктора</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Фотоальбомы
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Лаго-Наки</a></li>
+                <li><a class="dropdown-item" href="#">Архыз</a></li>
+                <li><a class="dropdown-item" href="#">Домбай</a></li>
+                <li><a class="dropdown-item" href="#">Приэльбрусье</a></li>
+                <li><a class="dropdown-item" href="#">Имеретинские озёра</a></li>
+                <li><a class="dropdown-item" href="#">Загеданские озёра</a></li>
+                <li><a class="dropdown-item" href="#">Большой Тхач</a></li>
               </ul>
             </li>
           </ul>
@@ -50,84 +102,6 @@
       </div>
     </nav>
   </header>
-
-  <nav class="navbar navbar-expand-xl bg-light">
-    <div class="container">
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
-          </li>
-          
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Маршруты
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-bs-popper="static">
-              <li><a class="dropdown-item" href="#">Краснодарский край</a></li>
-              <li><a class="dropdown-item" href="#">Адыгея</a></li>
-              <li><a class="dropdown-item" href="#">Крым</a></li>
-              <li><a class="dropdown-item" href="#">Карачаево-Черкессия</a></li>
-              <li><a class="dropdown-item" href="#">Кабардино-Балкария</a></li>
-            </ul>
-          </li>
-          
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Расписание
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Сезон 2022</a></li>
-              <li><a class="dropdown-item" href="#">Сезон 2023</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Блог
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Экипировка</a></li>
-              <li><a class="dropdown-item" href="#">Физическая подготовка</a></li>
-              <li><a class="dropdown-item" href="#">Психология в походе</a></li>
-              <li><a class="dropdown-item" href="#">Медицина в походе</a></li>
-              <li><a class="dropdown-item" href="#">Работа инструктора</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Фотоальбомы
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Лаго-Наки</a></li>
-              <li><a class="dropdown-item" href="#">Архыз</a></li>
-              <li><a class="dropdown-item" href="#">Домбай</a></li>
-              <li><a class="dropdown-item" href="#">Приэльбрусье</a></li>
-              <li><a class="dropdown-item" href="#">Имеретинские озёра</a></li>
-              <li><a class="dropdown-item" href="#">Загеданские озёра</a></li>
-              <li><a class="dropdown-item" href="#">Большой Тхач</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  
 
   <!-- карусель с фото -->
   <section class="carousel">
