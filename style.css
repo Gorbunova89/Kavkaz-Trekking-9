@@ -1,11 +1,20 @@
-body {
+/* body {
     background-color: silver
-}
+} */
 
-section {
+/* section {
     padding-bottom: 100px;
+} */
+
+.section {
+    background-color: silver;
+    padding: 100px 0px;
 }
 
+.section-a {
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 100px 0px;
+}
 
 footer {
     background-color: #212529;
